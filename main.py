@@ -1,8 +1,8 @@
 sentence = input('Sentence: ')
 words = sentence.split()
 
-shouted = 0
+shouted = 1
 for word in words:
-  if word.isupper():
-    shouted = shouted + 1
+  if word.islower():
+  shouted = shouted + 1
 print(f'Number of shouted words: {shouted}')
